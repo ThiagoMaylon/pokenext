@@ -10,7 +10,7 @@ export default function Layout({children}){
                 <title>PokeNext</title>
             </Head>
             <NavBar />
-            <main>{children}</main>
+            <main className="main-container">{children}</main>
             <Footer />
         </>
     )

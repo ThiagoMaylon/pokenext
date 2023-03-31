@@ -1,0 +1,38 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.2em;
+    margin-bottom: 2em;
+    background-color: #333;
+    color: #FFF;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h1{
+    margin-left: 0.5em;
+}
+
+.links{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.links li a{
+    margin-right: 1.3em;
+    color: #FFF;
+    text-decoration: none;
+    padding: 5px;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.links li a:hover{
+    border-bottom: 2px solid #FFF;
+}
